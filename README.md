@@ -2,7 +2,7 @@
 
 ## Installation
 ```bash
-npm install --save redux-mixpanel
+npm install --save redux-mixpanel-middleware
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ npm install --save redux-mixpanel
 ```javascript
 // import mixpanel client and redux-mixpanel middleware
 import mixpanel from 'mixpanel-browser'
-import MixpanelMiddleware from 'redux-mixpanel'
+import MixpanelMiddleware from 'redux-mixpanel-middleware'
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 
 // init mixpanel and pass mixpanel client to middleware
