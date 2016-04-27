@@ -1,6 +1,6 @@
 {
   "name": "redux-mixpanel-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mixpanel middleware for Redux",
   "main": "lib/index.js",
   "scripts": {
